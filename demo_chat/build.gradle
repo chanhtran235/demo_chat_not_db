@@ -31,3 +31,7 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+bootJar {
+    launchScript() // để jar chạy được như script trong môi trường như Railway
+}
+
