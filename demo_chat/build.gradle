@@ -34,4 +34,4 @@ tasks.named('test') {
 bootJar {
     launchScript() // để jar chạy được như script trong môi trường như Railway
 }
-
+jar.enabled=false
